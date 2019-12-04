@@ -1,0 +1,144 @@
+			/*header styling*/
+			.header-background{
+  					background-image: url("https://image.redbull.com/rbcom/052/2018-04-18/3defc76b-795c-4cfa-a005-c2fabd43f6fb/0012/0/130/0/2008/2816/1500/1/adventure-travel-cliff.jpg"); 
+  					background-position: 100% 45%;
+  					background-size: auto;
+  					padding: 10px;
+			}
+
+			h1{
+				font-family: Trebuchet MS;
+				font-size: 40px;
+				text-decoration: underline overline; 
+			}
+
+			p{
+				font-family: Trebuchet MS;
+			}
+
+			img{
+				 border-radius: 25%;
+			}
+
+			/*navbar styling*/
+			.head{                                 
+				overflow: hidden;
+  				background-color: wheat;
+  				padding: 5px 10px;
+			}
+			
+			.head a{
+				float: left;
+				font-family: Trebuchet MS;
+  				color: black;
+  				text-align: center;
+  				padding: 10px;
+  				text-decoration: none;
+  				font-size: 18px; 
+  				line-height: 25px;
+  				border-radius: 4px;
+			}
+
+			.head a.logo {
+  				font-size: 25px;
+  				font-weight: bold;
+  				text-shadow: 2px 2px sandybrown;
+			}
+
+			.head a:hover {
+  				background-color: burlywood;
+  				color: black;
+			}
+
+			.head-right {
+  				float: right;
+			}
+
+			@media screen and (max-width: 500px) {
+  				.head a {
+    				float: none;
+    				display: block;
+  	  				text-align: left;
+  				}
+  
+  				.head-right {
+    				float: none;
+  				}
+			}
+
+			/*slideshow styling*/
+			* {box-sizing: border-box;}
+			.slideshow{
+				display: none;
+			}
+			img{
+				vertical-align: middle;
+				border-radius: 4%;
+			}
+
+			.ss {
+  				width: 80%;
+  				height: 80%;
+   				position: relative;
+  				margin: auto;
+			}
+
+			.text {
+  				color: black;
+  				font-family: Trebuchet MS;
+  				font-weight: bold;
+  				font-size: 22px;
+  				padding: 8px 12px;
+  				position: absolute;
+  				bottom: 8px;
+  				width: 100%;
+  				text-align: center;
+			}
+
+			.dot {
+  				height: 15px;
+  				width: 15px;
+  				margin: 0 2px;
+  				background-color: #bbb;
+  				border-radius: 50%;
+  				display: inline-block;
+  				transition: background-color 0.6s ease;
+			}
+
+			.active {
+  				background-color: #717171;
+			}
+
+			.fade {
+  				-webkit-animation-name: fade;
+  				-webkit-animation-duration: 1.5s;
+  				animation-name: fade;
+  				animation-duration: 1.5s;
+			}
+
+			@-webkit-keyframes fade {
+ 				from {opacity: .5} 
+  				to {opacity: 1}
+			}
+
+			@keyframes fade {
+  				from {opacity: .6} 
+  				to {opacity: 1}
+			}
+
+			/*list styling*/
+			ul,li{
+				font-family: Trebuchet MS;
+			}
+			p{
+				font-size: 17px;
+			}
+			#more {display: none;}
+
+			/*footer styling*/
+			.footer {
+  				background-color: wheat;
+  				padding: 10px;
+  				text-align: center;
+  				border: 2px solid saddlebrown;
+			}
